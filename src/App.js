@@ -1,11 +1,16 @@
 import {Container} from '@mui/material';
-import Game from './Game';
+import Game from './game/Game';
+import Header from './game/header/header';
 
 function App() {
   return (
-    <Container>
-      <Game />
-    </Container>
+    <>
+      <Header />
+      <Container>
+        <Game />
+      </Container>
+    </>
+
   );
 }
 
